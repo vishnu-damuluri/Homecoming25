@@ -1,0 +1,120 @@
+body, html {
+        height: 100%;
+        margin: 0;
+      }
+      
+      .bg-gradient {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 10s ease infinite;
+        min-height: 100vh;
+      }
+      
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      .min-h-screen {
+        min-height: 100vh;
+      }
+      
+      .flex {
+        display: flex;
+      }
+      
+      .justify-center {
+        justify-content: center;
+      }
+      
+      .items-center {
+        align-items: center;
+      }
+      
+      .px-2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+      
+      .max-w-lg {
+        max-width: 32rem;
+      }
+      
+      .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .bg-white {
+        background-color: white;
+      }
+      
+      .shadow-lg {
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      }
+      
+      .rounded-lg {
+        border-radius: 0.5rem;
+      }
+      
+      .overflow-hidden {
+        overflow: hidden;
+      }
+      
+      .py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      
+      .px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+      
+      .text-gray-800 {
+        color: #2d3748;
+      }
+      
+      .text-gray-600 {
+        color: #718096;
+      }
+      
+      .font-bold {
+        font-weight: bold;
+      }
+      
+      .font-mono {
+        font-family: monospace;
+      }
+      
+      .text-2xl {
+        font-size: 1.5rem;
+      }
+      
+      .mt-2 {
+        margin-top: 0.5rem;
+      }
+      
+      .border {
+        border-width: 1px;
+      }
+      
+      .rounded-lg {
+        border-radius: 0.5rem;
+      }
+      
+      .text-center {
+        text-align: center;
+      }
+      
+      .text-red-600 {
+        color: #e53e3e;
+      }
+      
